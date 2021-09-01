@@ -4,6 +4,7 @@
     "minimum-stability": "dev",
     "homepage": "https://johncms.com",
     "license": "MIT",
+    "type": "johncms-module",
     "authors": [
         {
             "name": "Maksim Masalov",
