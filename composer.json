@@ -1,23 +1,30 @@
 {
-    "name": "johncms/contacts",
-    "description": "description",
-    "minimum-stability": "dev",
-    "homepage": "https://johncms.com",
-    "license": "MIT",
-    "type": "johncms-module",
-    "authors": [
-        {
-            "name": "Maksim Masalov",
-            "email": "simba7@inbox.ru"
-        }
-    ],
-    "require": {
-        "php": "^8.0",
-        "composer/installers": "v1.11.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Johncms\\Contacts\\": "src/"
-        }
+  "name": "johncms/contacts",
+  "description": "description",
+  "minimum-stability": "dev",
+  "homepage": "https://johncms.com",
+  "license": "MIT",
+  "type": "johncms-module",
+  "authors": [
+    {
+      "name": "Maksim Masalov",
+      "email": "simba7@inbox.ru"
     }
+  ],
+  "require": {
+    "php": "^8.0",
+    "composer/installers": "v1.11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Johncms\\Contacts\\": "src/"
+    }
+  },
+  "extra": {
+    "installer-paths": {
+      "modules/{$name}/": [
+        "type:johncms-module"
+      ]
+    }
+  }
 }
