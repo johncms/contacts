@@ -19,8 +19,5 @@
         "psr-4": {
             "Johncms\\Contacts\\": "src/"
         }
-    },
-    "extra": {
-        "installer-name": "johncms-module"
     }
 }
