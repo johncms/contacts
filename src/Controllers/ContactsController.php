@@ -22,8 +22,9 @@ class ContactsController extends BaseController
     {
         parent::__construct();
         $this->metaTagManager->setAll(__('Contacts'));
-        $this->nav_chain->add(__('Contacts'), route('contacts.index'));
+        $this->navChain->add(__('Contacts'), route('contacts.index'));
     }
+
 
     public function index(): string
     {
