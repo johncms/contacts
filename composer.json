@@ -7,8 +7,8 @@
   "type": "johncms-module",
   "authors": [
     {
-      "name": "Maksim Masalov",
-      "email": "simba7@inbox.ru"
+      "name": "JohnCMS Contributors",
+      "homepage": "https://github.com/johncms/contacts/graphs/contributors"
     }
   ],
   "require": {
